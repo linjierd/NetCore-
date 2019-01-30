@@ -1,0 +1,14 @@
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Test\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Test\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Test\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Test\Debug\netcoreapp2.1\appsettings.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.deps.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.runtimeconfig.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.runtimeconfig.dev.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.csproj.CoreCompileInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.AssemblyInfoInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.AssemblyInfo.cs
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.csproj.CopyComplete
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Test\Debug\netcoreapp2.1\WebApiDemo.Test.csprojAssemblyReference.cache

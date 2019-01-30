@@ -1,0 +1,14 @@
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\bin\Release\netcoreapp2.1\WebApiDemo.CommonLib.deps.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\bin\Release\netcoreapp2.1\WebApiDemo.CommonLib.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\bin\Release\netcoreapp2.1\WebApiDemo.CommonLib.pdb
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\bin\Release\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\bin\Release\netcoreapp2.1\Microsoft.Extensions.Options.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\bin\Release\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\bin\Release\netcoreapp2.1\Microsoft.Extensions.Options.xml
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\obj\Release\netcoreapp2.1\WebApiDemo.CommonLib.csprojAssemblyReference.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\obj\Release\netcoreapp2.1\WebApiDemo.CommonLib.csproj.CoreCompileInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\obj\Release\netcoreapp2.1\WebApiDemo.CommonLib.AssemblyInfoInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\obj\Release\netcoreapp2.1\WebApiDemo.CommonLib.AssemblyInfo.cs
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\obj\Release\netcoreapp2.1\WebApiDemo.CommonLib.csproj.CopyComplete
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\obj\Release\netcoreapp2.1\WebApiDemo.CommonLib.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.CommonLib\obj\Release\netcoreapp2.1\WebApiDemo.CommonLib.pdb

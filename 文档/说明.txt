@@ -1,0 +1,10 @@
+db文件夹存放着数据库备份
+后端是MVC权限框架,用.NetMVC+EF编写
+前端有两个项目都使用了.NetCore2.0 ,WebApiDemo是api,  WebSizeDemo是客户端
+本demo中使用了两个数据库, 目的是感受一下多数据库操作
+
+项目使用技术有:
+.NetCoreMVC 、.NetCoreApi
+SqlServer2012、Redis
+bootstrap、Hui、jquery、Vue、Axios
+EF、Dapper

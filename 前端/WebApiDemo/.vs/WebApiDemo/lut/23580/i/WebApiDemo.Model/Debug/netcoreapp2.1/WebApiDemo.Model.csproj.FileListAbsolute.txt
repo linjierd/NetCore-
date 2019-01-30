@@ -1,0 +1,7 @@
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Model\Debug\netcoreapp2.1\WebApiDemo.Model.deps.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.Model\Debug\netcoreapp2.1\WebApiDemo.Model.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Model\Debug\netcoreapp2.1\WebApiDemo.Model.csproj.CoreCompileInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Model\Debug\netcoreapp2.1\WebApiDemo.Model.AssemblyInfoInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Model\Debug\netcoreapp2.1\WebApiDemo.Model.AssemblyInfo.cs
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Model\Debug\netcoreapp2.1\WebApiDemo.Model.csproj.CopyComplete
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.Model\Debug\netcoreapp2.1\WebApiDemo.Model.dll

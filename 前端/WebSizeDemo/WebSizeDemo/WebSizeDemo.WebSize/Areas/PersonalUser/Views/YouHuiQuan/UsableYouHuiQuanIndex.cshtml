@@ -1,0 +1,103 @@
+﻿
+
+@{
+    ViewData["Title"] = "我的优惠券";
+}
+
+<div id="orders" class="tab-pane fade show active">
+    <h3>Orders</h3>
+    <div class="table-responsive">
+        <table class="table" id="orders" v-cloak>
+            <thead>
+                <tr>
+                    <th>优惠券编号</th>
+                    <th>优惠券标题</th>
+                    <th>优惠券类型</th>
+                    <th>优惠券平台</th>
+                    <th>优惠券品类</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(item,index) in orderList">
+                    <td>{{item.youhuiquan_code}}</td>
+                    <td>{{item.youhuiquan_title}}</td>
+                    <td>{{item.youhuiquan_type}}</td>
+                    <td>{{item.youhuiquan_pingtai}} </td>
+                    <td>{{item.youhuiquan_pinlei}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <div id="page" class="page"></div>
+    </div>
+</div>
+<script>
+    var vm = new Vue({
+        el: "#orders",
+        data: {
+           orderList: []
+        },
+        mounted() {
+            this.getOrders(1);
+        },
+        methods: {
+            getOrders: function (curPage) {
+                //ajax方式一样能实现效果,vue推荐用axios代替
+                //$.ajax({
+                //    url: "http://127.0.0.1/Users/GetUsers",
+                //    type: "get",
+                //    data: {
+                //        KeyWord: $("#txt_UserName").val()
+                //    },
+
+                //    success: function (data) {
+                //        $(data).each(function (index, data) {
+                //            userList.push(data);
+                //            $("#tData").append("<tr><td><input class='cks' value='" + data.PersonID + "' type='checkbox' /></td><td>" + data.PersonName + "</td><td>" + data.PersonGender + "</td><td>" + data.PersonHobby + "</td><td><img src='" + data.PersonImg + "' /></td><td>" + data.AreaSpaceName + "</td><td>" + data.CityName + "</td><td>" + data.State + "</td><td><a href='#' onclick='DeletePerson(" + data.PersonID + ")'>删除</a><a href='/Person/UpdatePerson?pId=" + data.PersonID + "'>修改</a></td><td><input id='Button1' type='button' onclick='UpdateState(" + data.PersonID + ")' value='" + (data.State == "开启" ? "关闭" : "开启") + "' /></td></tr>")
+                //        })
+
+                //    }
+                //})
+                axios.get(webSizeConfig.apiHost + "/api/UserManager/YouHuiQuan/UsableYouHuiQuanGetPageList?pageIndex=" + curPage + "&pageSize=" + webSizeConfig.pageSize +"&youhuiquan_state=0"
+                    , {
+                    headers: {
+
+
+                        'token': webSizeConfig.token
+
+                    }
+                }).then(
+                    (response) => {
+                        if (response.data.result_code == webSizeConfig.resultOk) {
+                          //  this.orderList = [];
+                            //for (var i = 0; i < response.data.result_data.orderList.length; i++) {
+                            //    this.orderList.push(response.data.result_data.orderList[i]);
+                            //}
+                            this.orderList = response.data.result_data.orderList;
+                            showPage(curPage, response.data.result_data.rowCount);
+                        }
+
+                    }
+                ).catch(function (response) {
+                    layer.msg('error!<br/>' + response, { icon: 1 });
+                });
+            }
+
+        }
+    });
+
+    function showPage(curPage, dataTotal) {
+        var pageObj = new Page({
+            id: 'page',         //和页面分页DIV的ID对应，不传默认是'page'
+            curPage: curPage,   //当前页码
+            pageAmount: webSizeConfig.pageSize,      //每页多少条
+            dataTotal: dataTotal,      //总条数，通过后台返回传入，总页数自动计算
+            getPage: function (page) {
+                //回调方法
+                vm.getOrders(page);
+            }
+        })
+    }
+
+</script>
+

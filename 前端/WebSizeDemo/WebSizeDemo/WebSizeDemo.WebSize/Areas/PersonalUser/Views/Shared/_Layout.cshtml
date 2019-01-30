@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int menumNumber = 0;
+    if (ViewBag.MenumNumber != null)
+    {
+        menumNumber=ViewBag.MenumNumber;
+    }
+
+    string[] menumCss = new string[4];
+    menumCss[menumNumber] = "active";
+}
+
+<!--My Account Area Strat-->
+<div class="my-account white-bg mt-80">
+    <div class="container">
+        <div class="account-dashboard">
+           
+            <div class="row">
+                <div class="col-md-12 col-lg-2">
+                    <!-- Nav tabs -->
+                    <ul class="nav flex-column dashboard-list" role="tablist">
+                        <li><a class="nav-link @menumCss[0]"  href="/PersonalUser/Home/Dashboard">Dashboard</a></li>
+                        <li> <a class="nav-link @menumCss[1]" href="/PersonalUser/Orders/Index">Orders</a></li>
+                       
+                        <li><a class="nav-link @menumCss[2]"  href="/PersonalUser/Addresses/Index">Addresses</a></li>
+                        <li><a class="nav-link @menumCss[3]"  href="/PersonalUser/Account/Index">Account details</a></li>
+                        <li><a class="nav-link" href="/PersonalUser/Common/LoginOut">logout</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-lg-10">
+                    <!-- Tab panes -->
+                    <div class="tab-content dashboard-content">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--My Account Area End-->

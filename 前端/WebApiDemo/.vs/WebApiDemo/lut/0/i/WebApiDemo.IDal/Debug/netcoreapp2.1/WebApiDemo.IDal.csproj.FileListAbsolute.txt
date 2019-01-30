@@ -1,0 +1,8 @@
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.IDal\Debug\netcoreapp2.1\WebApiDemo.IDal.deps.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.IDal\Debug\netcoreapp2.1\WebApiDemo.IDal.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.IDal\Debug\netcoreapp2.1\WebApiDemo.IDal.csprojAssemblyReference.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.IDal\Debug\netcoreapp2.1\WebApiDemo.IDal.csproj.CoreCompileInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.IDal\Debug\netcoreapp2.1\WebApiDemo.IDal.AssemblyInfoInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.IDal\Debug\netcoreapp2.1\WebApiDemo.IDal.AssemblyInfo.cs
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.IDal\Debug\netcoreapp2.1\WebApiDemo.IDal.csproj.CopyComplete
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.IDal\Debug\netcoreapp2.1\WebApiDemo.IDal.dll

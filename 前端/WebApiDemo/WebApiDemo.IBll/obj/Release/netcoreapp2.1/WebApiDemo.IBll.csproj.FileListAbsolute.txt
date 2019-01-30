@@ -1,0 +1,12 @@
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\bin\Release\netcoreapp2.1\WebApiDemo.IBll.deps.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\bin\Release\netcoreapp2.1\WebApiDemo.IBll.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\bin\Release\netcoreapp2.1\WebApiDemo.IBll.pdb
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\bin\Release\netcoreapp2.1\WebApiDemo.Model.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\bin\Release\netcoreapp2.1\WebApiDemo.Model.pdb
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\obj\Release\netcoreapp2.1\WebApiDemo.IBll.csprojAssemblyReference.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\obj\Release\netcoreapp2.1\WebApiDemo.IBll.csproj.CoreCompileInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\obj\Release\netcoreapp2.1\WebApiDemo.IBll.AssemblyInfoInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\obj\Release\netcoreapp2.1\WebApiDemo.IBll.AssemblyInfo.cs
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\obj\Release\netcoreapp2.1\WebApiDemo.IBll.csproj.CopyComplete
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\obj\Release\netcoreapp2.1\WebApiDemo.IBll.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\WebApiDemo.IBll\obj\Release\netcoreapp2.1\WebApiDemo.IBll.pdb

@@ -1,0 +1,13 @@
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.deps.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.runtimeconfig.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.runtimeconfig.dev.json
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\b\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.csproj.CoreCompileInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.RazorAssemblyInfo.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.RazorAssemblyInfo.cs
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.AssemblyInfoInputs.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.AssemblyInfo.cs
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.RazorTargetAssemblyInfo.cache
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.csproj.CopyComplete
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.dll
+D:\公司\八维\SVN\1603NetM\大一\document\框架\前端\WebApiDemo\.vs\WebApiDemo\lut\0\i\WebApiDemo.ApiDemo\Debug\netcoreapp2.1\WebApiDemo.ApiDemo.csprojAssemblyReference.cache

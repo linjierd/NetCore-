@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "WebApiDemo.IBll/1.0.0": {
+        "dependencies": {
+          "WebApiDemo.Model": "1.0.0"
+        },
+        "runtime": {
+          "WebApiDemo.IBll.dll": {}
+        }
+      },
+      "WebApiDemo.Model/1.0.0": {
+        "runtime": {
+          "WebApiDemo.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApiDemo.IBll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebApiDemo.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,171 @@
+﻿
+@{
+    ViewData["Title"] = "个人信息";
+}
+<script type="text/javascript" src="/lib/size/js/bootstrap-fileinput-master/js/fileinput.min.js"></script>
+<script type="text/javascript" src="/lib/size/js/bootstrap-fileinput-master/js/locales/zh.js"></script>
+<link href="/lib/size/js/bootstrap-fileinput-master/css/fileinput.css" rel="stylesheet" />
+<div id="account-details" class="tab-pane fade show active">
+    <h3>Account details </h3>
+    <div class="login">
+        <div class="login-form-container">
+            <div class="account-login-form">
+                <article id="user" v-cloak>
+                    <form method="post" v-on:submit.prevent="updateUser">
+
+                        <input type="hidden" name="gerenxinxi_zhanghuming" v-model="userObj.gerenxinxi_zhanghuming" />
+                        <label>头像</label>
+
+                        <input type="hidden" id="gerenxinxi_touxiang" v-model="userObj.gerenxinxi_touxiang" />
+
+                        <div>
+                            <input id="myfile" name="myfile" type="file" data-show-caption="true">
+                            <p class="help-block">支持jpg、jpeg、png格式，大小不超过2.0M</p>
+                            <button type="button" class="default-btn" onclick="upfile()">上传</button>
+                         
+                        </div>
+                        <label>姓名</label>
+                        <input name="gerenxinxi_zhenshixingming" type="text" v-model="userObj.gerenxinxi_zhenshixingming">
+                        <label>生日</label>
+                        <input name="gerenxinxi_shengri" type="text" v-model="userObj.gerenxinxi_shengri">
+                        <label>手机号</label>
+                        <input name="gerenxinxi_shoujihao" type="text" v-model="userObj.gerenxinxi_shoujihao">
+
+                        <div class="button-box">
+                            <button type="submit" class="default-btn">保存</button>
+                        </div>
+
+                    </form>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script>
+
+
+        var apiServer = webSizeConfig.apiServer;
+
+
+        function initFileInput(filePath) {
+            var image;
+            if (filePath) {
+                image = [
+                    "<img src='" + filePath + "' style='width:auto;height:auto;max-width:100%; max-height:100 %;'  >",
+                ];
+            }
+            var control = $('#myfile');
+            control.fileinput({
+                language: 'zh', //设置语言
+              //  uploadUrl: webSizeConfig.ImageApiHost,  //上传地址
+                showUpload: false, //是否显示上传按钮
+                showRemove: true,
+                dropZoneEnabled: false,
+                showCaption: true,//是否显示标题
+                allowedPreviewTypes: ['image'],
+                allowedFileTypes: ['image'],
+                allowedFileExtensions: ['jpg', 'png'],
+                maxFileSize: 2000,
+                maxFileCount: 1,
+                initialPreview: image ,
+
+            })
+            //    .on("filebatchselected", function (event, files) {
+            //    $("#gerenxinxi_touxiang").val()
+            //    $(this).fileinput("upload");
+            //})
+            //    .on("fileuploaded", function (event, data) {
+            //        $("#gerenxinxi_touxiang").attr("value", data.response);
+            //    });
+        }
+
+        function upfile() {
+            var file = $("#myfile")[0];
+            if (file) {
+                var d = new FormData();
+                d.append("myfile", $("#myfile")[0].files[0]);
+                //   d.append("myname", "hello world");
+                $.ajax({
+                    url: webSizeConfig.imageApiHost,
+                    data: d,
+                    type: 'post',
+                    processData: false,
+                    contentType: false,
+                    success: function (result) {
+                        if (result.result_code == webSizeConfig.resultOk) {
+                            $("#gerenxinxi_touxiang").val(result.result_data[0].filePath);
+                            layer.msg('上传成功!', { icon: 1, time: 1000 });
+                        }
+                    }
+                });
+            }
+          
+        }
+
+
+
+        var vm = new Vue(
+            {
+                el: "#user",
+                data: {
+                    userObj: {
+                    }
+                },
+                mounted() {
+                    var token = webSizeConfig.token;
+                    if (token && token != "") {
+                        this.getUser(token);
+                    }
+                },
+                methods: {
+                    updateUser: function () {
+                        this.userObj.gerenxinxi_touxiang = $("#gerenxinxi_touxiang").val();
+                        //表单验证加在此处
+                        axios.post(webSizeConfig.userApiHost + '/UpdateUser', this.userObj, {
+                            headers: {
+                                'token': webSizeConfig.token
+
+                            }
+                        }
+                        ).then(
+                            (response) => {
+                                if (response.data.result_code == webSizeConfig.resultOk) {
+                                    layer.msg('修改成功!', { icon: 1, time: 1000 });
+                                }
+                                else {
+                                    layer.msg('修改失败!' + response.data.result_mess, { icon: 1, time: 1000 });
+                                }
+                            }
+                        ).catch(function (response) {
+                            layer.msg('error!<br/>' + response, { icon: 1 });
+                        })
+
+                    },
+                    getUser: function (token) {
+
+                        axios.get(webSizeConfig.userApiHost + '/GetUser?token=' + token,
+                            {
+                                headers: {
+                                    'token': token
+                                }
+                            }
+                        ).then(
+                            (response) => {
+                                this.userObj = response.data.result_data;
+                                if (this.userObj.gerenxinxi_touxiang) {
+                                    this.userObj.touxiang = webSizeConfig.apiHost + this.userObj.gerenxinxi_touxiang;
+                                    initFileInput(this.userObj.touxiang);
+                                }
+                                else {
+                                    initFileInput("");
+                                }
+
+                            }
+                        ).catch(function (response) {
+                            layer.msg('error!<br/>' + response, { icon: 1 });
+                        });
+                    },
+                }
+            });
+    </script>
+</div>
+
