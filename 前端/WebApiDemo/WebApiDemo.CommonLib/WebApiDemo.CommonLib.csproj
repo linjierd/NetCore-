@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="CSRedisCore" Version="3.0.17" />
     <PackageReference Include="JWT" Version="4.0.0" />
-    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="log4net" Version="2.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
   </ItemGroup>
